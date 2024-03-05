@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Header from './components/Header'
-import Produtos from './containers/Produtos'
+import ProdutosComponent from './containers/Produtos'
 
 import { GlobalStyle } from './styles'
 import { Provider } from 'react-redux'
@@ -20,7 +20,7 @@ function App() {
       <GlobalStyle />
       <div className="container">
         <Header />
-        <Produtos />
+        <ProdutosComponent />
       </div>
     </Provider>
   )
